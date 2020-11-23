@@ -1,0 +1,31 @@
+{
+"extends": [
+    "airbnb",
+    "prettier",
+    "prettier/react"
+  ],
+  "env":{
+    "jest": true
+  },
+  "globals": {
+    "document": true
+  },
+  "rules": {
+    "react/jsx-filename-extension": [
+      1, 
+      {
+        "extensions": [
+          ".js"
+        ] 
+      }
+    ],
+    "import/no-unresolved": [
+      0, 
+      {"commonjs": false, "amd": false}
+   ],
+  "import/named": 2,
+  "import/namespace": 2,
+  "import/default": 2,
+  "import/export": 2
+  }
+}
